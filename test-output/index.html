@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Regression_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Regression Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Regression_Suite" class="navigator-link ">
+                    <span>C:\Users\Rachin\eclipse-workspace\FinalPJ\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Regression_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Regression_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Regression_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Regression_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Regression_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Regression_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods,   22 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Regression_Suite" class="hide-methods passed suite-Regression_Suite"> (hide)</a> <!-- hide-methods passed suite-Regression_Suite -->
+                      <a href="#" panel-name="suite-Regression_Suite" class="show-methods passed suite-Regression_Suite"> (show)</a> <!-- show-methods passed suite-Regression_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Regression_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.Loginvalidation" class="method navigator-link" hash-for-method="ClickMobiles">ClickMobiles</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.Loginvalidation" class="method navigator-link" hash-for-method="Clickelectronice">Clickelectronice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.Loginvalidation" class="method navigator-link" hash-for-method="Moblink">Moblink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.Loginvalidation" class="method navigator-link" hash-for-method="Productdetails">Productdetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.Loginvalidation" class="method navigator-link" hash-for-method="ScrollUp">ScrollUp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.Loginvalidation" class="method navigator-link" hash-for-method="Scrolldown">Scrolldown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.Loginvalidation" class="method navigator-link" hash-for-method="Signin">Signin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.Basicvalidation" class="method navigator-link" hash-for-method="URLvalidation">URLvalidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.Loginvalidation" class="method navigator-link" hash-for-method="checkboxclick">checkboxclick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.Loginvalidation" class="method navigator-link" hash-for-method="clickoneplus">clickoneplus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.Loginvalidation" class="method navigator-link" hash-for-method="enterviaRobot">enterviaRobot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.Loginvalidation" class="method navigator-link" hash-for-method="headphoneclick">headphoneclick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.Loginvalidation" class="method navigator-link" hash-for-method="hovermobile">hovermobile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.Loginvalidation" class="method navigator-link" hash-for-method="loginvalidation1(86345822)">loginvalidation1(86345822)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.Loginvalidation" class="method navigator-link" hash-for-method="loginvalidation2(dan@gl.com)">loginvalidation2(dan@gl.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.Loginvalidation" class="method navigator-link" hash-for-method="loginvalidation3(65466788)">loginvalidation3(65466788)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.Loginvalidation" class="method navigator-link" hash-for-method="switchtab">switchtab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.Basicvalidation" class="method navigator-link" hash-for-method="titlevalidation">titlevalidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.Loginvalidation" class="method navigator-link" hash-for-method="windowchange">windowchange</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.Loginvalidation" class="method navigator-link" hash-for-method="windowclose">windowclose</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.Loginvalidation" class="method navigator-link" hash-for-method="windowclose1">windowclose1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="Test.Loginvalidation" class="method navigator-link" hash-for-method="windowclose2">windowclose2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Regression_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Regression_Suite" class="panel Regression_Suite">
+          <div class="suite-Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.Loginvalidation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickMobiles">
+                  </a> <!-- ClickMobiles -->
+                  <span class="method-name">ClickMobiles</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Clickelectronice">
+                  </a> <!-- Clickelectronice -->
+                  <span class="method-name">Clickelectronice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Moblink">
+                  </a> <!-- Moblink -->
+                  <span class="method-name">Moblink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Productdetails">
+                  </a> <!-- Productdetails -->
+                  <span class="method-name">Productdetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ScrollUp">
+                  </a> <!-- ScrollUp -->
+                  <span class="method-name">ScrollUp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Scrolldown">
+                  </a> <!-- Scrolldown -->
+                  <span class="method-name">Scrolldown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Signin">
+                  </a> <!-- Signin -->
+                  <span class="method-name">Signin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkboxclick">
+                  </a> <!-- checkboxclick -->
+                  <span class="method-name">checkboxclick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickoneplus">
+                  </a> <!-- clickoneplus -->
+                  <span class="method-name">clickoneplus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterviaRobot">
+                  </a> <!-- enterviaRobot -->
+                  <span class="method-name">enterviaRobot</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="headphoneclick">
+                  </a> <!-- headphoneclick -->
+                  <span class="method-name">headphoneclick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hovermobile">
+                  </a> <!-- hovermobile -->
+                  <span class="method-name">hovermobile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginvalidation1(86345822)">
+                  </a> <!-- loginvalidation1(86345822) -->
+                  <span class="method-name">loginvalidation1</span>
+                  <span class="parameters">(86345822)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginvalidation2(dan@gl.com)">
+                  </a> <!-- loginvalidation2(dan@gl.com) -->
+                  <span class="method-name">loginvalidation2</span>
+                  <span class="parameters">(dan@gl.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginvalidation3(65466788)">
+                  </a> <!-- loginvalidation3(65466788) -->
+                  <span class="method-name">loginvalidation3</span>
+                  <span class="parameters">(65466788)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="switchtab">
+                  </a> <!-- switchtab -->
+                  <span class="method-name">switchtab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="windowchange">
+                  </a> <!-- windowchange -->
+                  <span class="method-name">windowchange</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="windowclose">
+                  </a> <!-- windowclose -->
+                  <span class="method-name">windowclose</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="windowclose1">
+                  </a> <!-- windowclose1 -->
+                  <span class="method-name">windowclose1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="windowclose2">
+                  </a> <!-- windowclose2 -->
+                  <span class="method-name">windowclose2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Suite-class-passed -->
+          <div class="suite-Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Test.Basicvalidation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="URLvalidation">
+                  </a> <!-- URLvalidation -->
+                  <span class="method-name">URLvalidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titlevalidation">
+                  </a> <!-- titlevalidation -->
+                  <span class="method-name">titlevalidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Suite-class-passed -->
+        </div> <!-- panel Regression_Suite -->
+        <div panel-name="test-xml-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Rachin\eclipse-workspace\FinalPJ\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Regression Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;Number3&quot; value=&quot;65466788&quot;/&gt;
+  &lt;parameter name=&quot;Number2&quot; value=&quot;dan@gl.com&quot;/&gt;
+  &lt;parameter name=&quot;Number1&quot; value=&quot;86345822&quot;/&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Chrome-Regression Test&quot;&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;Test&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Test.Base&quot;/&gt;
+      &lt;class name=&quot;Test.Basicvalidation&quot;/&gt;
+      &lt;class name=&quot;Test.Loginvalidation&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome-Regression Test --&gt;
+&lt;/suite&gt; &lt;!-- Regression Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chrome-Regression Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Regression_Suite');
+function tableData_Regression_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'enterviaRobot')
+data.setCell(0, 2, 'Test.Loginvalidation')
+data.setCell(0, 3, 10633);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'clickoneplus')
+data.setCell(1, 2, 'Test.Loginvalidation')
+data.setCell(1, 3, 9948);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Moblink')
+data.setCell(2, 2, 'Test.Loginvalidation')
+data.setCell(2, 3, 8400);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Signin')
+data.setCell(3, 2, 'Test.Loginvalidation')
+data.setCell(3, 3, 7151);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginvalidation1')
+data.setCell(4, 2, 'Test.Loginvalidation')
+data.setCell(4, 3, 5208);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginvalidation3')
+data.setCell(5, 2, 'Test.Loginvalidation')
+data.setCell(5, 3, 4657);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Clickelectronice')
+data.setCell(6, 2, 'Test.Loginvalidation')
+data.setCell(6, 3, 4531);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'checkboxclick')
+data.setCell(7, 2, 'Test.Loginvalidation')
+data.setCell(7, 3, 3608);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'windowchange')
+data.setCell(8, 2, 'Test.Loginvalidation')
+data.setCell(8, 3, 3259);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'hovermobile')
+data.setCell(9, 2, 'Test.Loginvalidation')
+data.setCell(9, 3, 3190);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Scrolldown')
+data.setCell(10, 2, 'Test.Loginvalidation')
+data.setCell(10, 3, 3157);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Productdetails')
+data.setCell(11, 2, 'Test.Loginvalidation')
+data.setCell(11, 3, 3123);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'loginvalidation2')
+data.setCell(12, 2, 'Test.Loginvalidation')
+data.setCell(12, 3, 2914);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'headphoneclick')
+data.setCell(13, 2, 'Test.Loginvalidation')
+data.setCell(13, 3, 2403);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'ClickMobiles')
+data.setCell(14, 2, 'Test.Loginvalidation')
+data.setCell(14, 3, 1762);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'windowclose2')
+data.setCell(15, 2, 'Test.Loginvalidation')
+data.setCell(15, 3, 143);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'switchtab')
+data.setCell(16, 2, 'Test.Loginvalidation')
+data.setCell(16, 3, 111);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'windowclose')
+data.setCell(17, 2, 'Test.Loginvalidation')
+data.setCell(17, 3, 103);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'windowclose1')
+data.setCell(18, 2, 'Test.Loginvalidation')
+data.setCell(18, 3, 73);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'URLvalidation')
+data.setCell(19, 2, 'Test.Basicvalidation')
+data.setCell(19, 3, 69);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'titlevalidation')
+data.setCell(20, 2, 'Test.Basicvalidation')
+data.setCell(20, 3, 55);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'ScrollUp')
+data.setCell(21, 2, 'Test.Loginvalidation')
+data.setCell(21, 3, 50);
+window.suiteTableData['Regression_Suite']= { tableData: data, tableDiv: 'times-div-Regression_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Regression_Suite">
+              </div> <!-- times-div-Regression_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">hovermobile</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> Click on Mobile hover</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">windowchange</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> Window Change</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">windowclose1</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> Window closed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">windowclose</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> Window closed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">windowclose2</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> Window closed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Scrolldown</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> Scrolling down the page</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Productdetails</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> Product Details</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ScrollUp</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> Scrolling Up the page</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">URLvalidation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Expected URL = https://www.amazon.in/</span>
+                <span class="reporter-method-output">Actual URL = https://www.amazon.in/</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkboxclick</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> Checkbox click</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">headphoneclick</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> Headphone click</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">ClickMobiles</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> Click on Mobiles</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginvalidation2(dan@gl.com)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> Click on Sign on</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">switchtab</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> Window switched</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Signin</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> Sign in Functionality</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Moblink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> Click on OnePlus Mobile link</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginvalidation1(86345822)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> Click on Sign on</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Clickelectronice</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> Click on Electronics</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginvalidation3(65466788)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> Click on Sign on</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">clickoneplus</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"> Click on OnePlus</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">titlevalidation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Expected title = Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in</span>
+                <span class="reporter-method-output">Actual title = Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test.Loginvalidation</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Test.Basicvalidation</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeTest</span>
+                <br/>
+                <span class="ignored-method-name">afterTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.Base</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest(Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.Basicvalidation</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">URLvalidation</span>
+                <span class="method-start">4117 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">titlevalidation</span>
+                <span class="method-start">4191 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.Loginvalidation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeclass</span>
+                <span class="method-start">4250 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Clickelectronice</span>
+                <span class="method-start">4294 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ClickMobiles</span>
+                <span class="method-start">8830 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">hovermobile</span>
+                <span class="method-start">10595 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickoneplus</span>
+                <span class="method-start">13787 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Moblink</span>
+                <span class="method-start">23738 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Scrolldown</span>
+                <span class="method-start">32142 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ScrollUp</span>
+                <span class="method-start">35303 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterviaRobot</span>
+                <span class="method-start">35357 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkboxclick</span>
+                <span class="method-start">45993 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">headphoneclick</span>
+                <span class="method-start">49602 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">windowchange</span>
+                <span class="method-start">52007 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Productdetails</span>
+                <span class="method-start">55267 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">windowclose</span>
+                <span class="method-start">58392 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">switchtab</span>
+                <span class="method-start">58498 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Signin</span>
+                <span class="method-start">58611 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginvalidation1(86345822)</span>
+                <span class="method-start">65764 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginvalidation2(dan@gl.com)</span>
+                <span class="method-start">70976 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginvalidation3(65466788)</span>
+                <span class="method-start">73893 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">windowclose1</span>
+                <span class="method-start">78552 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">windowclose2</span>
+                <span class="method-start">78626 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Test.Base</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">78771 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="26" passed="22" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Expected URL = https://www.amazon.in/]]>
+    </line>
+    <line>
+      <![CDATA[Actual URL = https://www.amazon.in/]]>
+    </line>
+    <line>
+      <![CDATA[Expected title = Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]]>
+    </line>
+    <line>
+      <![CDATA[Actual title = Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]]>
+    </line>
+    <line>
+      <![CDATA[ Click on Electronics]]>
+    </line>
+    <line>
+      <![CDATA[ Click on Mobiles]]>
+    </line>
+    <line>
+      <![CDATA[ Click on Mobile hover]]>
+    </line>
+    <line>
+      <![CDATA[ Click on OnePlus]]>
+    </line>
+    <line>
+      <![CDATA[ Click on OnePlus Mobile link]]>
+    </line>
+    <line>
+      <![CDATA[ Scrolling down the page]]>
+    </line>
+    <line>
+      <![CDATA[ Scrolling Up the page]]>
+    </line>
+    <line>
+      <![CDATA[ Checkbox click]]>
+    </line>
+    <line>
+      <![CDATA[ Headphone click]]>
+    </line>
+    <line>
+      <![CDATA[ Window Change]]>
+    </line>
+    <line>
+      <![CDATA[ Product Details]]>
+    </line>
+    <line>
+      <![CDATA[ Window closed]]>
+    </line>
+    <line>
+      <![CDATA[ Window switched]]>
+    </line>
+    <line>
+      <![CDATA[ Sign in Functionality]]>
+    </line>
+    <line>
+      <![CDATA[ Click on Sign on]]>
+    </line>
+    <line>
+      <![CDATA[ Click on Sign on]]>
+    </line>
+    <line>
+      <![CDATA[ Click on Sign on]]>
+    </line>
+    <line>
+      <![CDATA[ Window closed]]>
+    </line>
+    <line>
+      <![CDATA[ Window closed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-08-15T20:09:00 IST" name="Regression Suite" finished-at="2021-08-15T20:10:19 IST" duration-ms="78776">
+    <groups>
+    </groups>
+    <test started-at="2021-08-15T20:09:00 IST" name="Chrome-Regression Test" finished-at="2021-08-15T20:10:19 IST" duration-ms="78776">
+      <class name="Test.Base">
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:Test.Base@433d61fb]" started-at="2021-08-15T20:09:00 IST" name="beforeTest" finished-at="2021-08-15T20:09:04 IST" duration-ms="4094" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Test.Base@433d61fb]" started-at="2021-08-15T20:10:19 IST" name="afterTest" finished-at="2021-08-15T20:10:19 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Test.Base -->
+      <class name="Test.Basicvalidation">
+        <test-method signature="URLvalidation()[pri:0, instance:Test.Basicvalidation@5c909414]" started-at="2021-08-15T20:09:04 IST" name="URLvalidation" finished-at="2021-08-15T20:09:04 IST" duration-ms="69" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected URL = https://www.amazon.in/]]>
+            </line>
+            <line>
+              <![CDATA[Actual URL = https://www.amazon.in/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- URLvalidation -->
+        <test-method signature="titlevalidation()[pri:0, instance:Test.Basicvalidation@5c909414]" started-at="2021-08-15T20:09:04 IST" name="titlevalidation" finished-at="2021-08-15T20:09:04 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Expected title = Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]]>
+            </line>
+            <line>
+              <![CDATA[Actual title = Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- titlevalidation -->
+      </class> <!-- Test.Basicvalidation -->
+      <class name="Test.Loginvalidation">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:Test.Loginvalidation@4b14c583]" started-at="2021-08-15T20:09:04 IST" name="beforeclass" finished-at="2021-08-15T20:09:04 IST" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="Clickelectronice()[pri:0, instance:Test.Loginvalidation@4b14c583]" started-at="2021-08-15T20:09:04 IST" name="Clickelectronice" finished-at="2021-08-15T20:09:09 IST" duration-ms="4531" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Click on Electronics]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Clickelectronice -->
+        <test-method signature="ClickMobiles()[pri:0, instance:Test.Loginvalidation@4b14c583]" started-at="2021-08-15T20:09:09 IST" name="ClickMobiles" finished-at="2021-08-15T20:09:11 IST" depends-on-methods="Test.Loginvalidation.Clickelectronice" duration-ms="1762" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Click on Mobiles]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ClickMobiles -->
+        <test-method signature="hovermobile()[pri:0, instance:Test.Loginvalidation@4b14c583]" started-at="2021-08-15T20:09:11 IST" name="hovermobile" finished-at="2021-08-15T20:09:14 IST" depends-on-methods="Test.Loginvalidation.ClickMobiles" duration-ms="3190" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Click on Mobile hover]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- hovermobile -->
+        <test-method signature="clickoneplus()[pri:0, instance:Test.Loginvalidation@4b14c583]" started-at="2021-08-15T20:09:14 IST" name="clickoneplus" finished-at="2021-08-15T20:09:24 IST" depends-on-methods="Test.Loginvalidation.hovermobile" duration-ms="9948" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Click on OnePlus]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickoneplus -->
+        <test-method signature="Moblink()[pri:0, instance:Test.Loginvalidation@4b14c583]" started-at="2021-08-15T20:09:24 IST" name="Moblink" finished-at="2021-08-15T20:09:32 IST" depends-on-methods="Test.Loginvalidation.clickoneplus" duration-ms="8400" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Click on OnePlus Mobile link]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Moblink -->
+        <test-method signature="Scrolldown()[pri:0, instance:Test.Loginvalidation@4b14c583]" started-at="2021-08-15T20:09:32 IST" name="Scrolldown" finished-at="2021-08-15T20:09:35 IST" depends-on-methods="Test.Loginvalidation.Moblink" duration-ms="3157" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Scrolling down the page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Scrolldown -->
+        <test-method signature="ScrollUp()[pri:0, instance:Test.Loginvalidation@4b14c583]" started-at="2021-08-15T20:09:35 IST" name="ScrollUp" finished-at="2021-08-15T20:09:36 IST" depends-on-methods="Test.Loginvalidation.Scrolldown" duration-ms="50" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Scrolling Up the page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ScrollUp -->
+        <test-method signature="enterviaRobot()[pri:0, instance:Test.Loginvalidation@4b14c583]" started-at="2021-08-15T20:09:36 IST" name="enterviaRobot" finished-at="2021-08-15T20:09:46 IST" depends-on-methods="Test.Loginvalidation.ScrollUp" duration-ms="10633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterviaRobot -->
+        <test-method signature="checkboxclick()[pri:0, instance:Test.Loginvalidation@4b14c583]" started-at="2021-08-15T20:09:46 IST" name="checkboxclick" finished-at="2021-08-15T20:09:50 IST" depends-on-methods="Test.Loginvalidation.enterviaRobot" duration-ms="3608" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Checkbox click]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkboxclick -->
+        <test-method signature="headphoneclick()[pri:0, instance:Test.Loginvalidation@4b14c583]" started-at="2021-08-15T20:09:50 IST" name="headphoneclick" finished-at="2021-08-15T20:09:52 IST" depends-on-methods="Test.Loginvalidation.checkboxclick" duration-ms="2403" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Headphone click]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- headphoneclick -->
+        <test-method signature="windowchange()[pri:0, instance:Test.Loginvalidation@4b14c583]" started-at="2021-08-15T20:09:52 IST" name="windowchange" finished-at="2021-08-15T20:09:55 IST" depends-on-methods="Test.Loginvalidation.headphoneclick" duration-ms="3259" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Window Change]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- windowchange -->
+        <test-method signature="Productdetails()[pri:0, instance:Test.Loginvalidation@4b14c583]" started-at="2021-08-15T20:09:55 IST" name="Productdetails" finished-at="2021-08-15T20:09:59 IST" depends-on-methods="Test.Loginvalidation.windowchange" duration-ms="3123" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Product Details]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Productdetails -->
+        <test-method signature="windowclose()[pri:0, instance:Test.Loginvalidation@4b14c583]" started-at="2021-08-15T20:09:59 IST" name="windowclose" finished-at="2021-08-15T20:09:59 IST" depends-on-methods="Test.Loginvalidation.Productdetails" duration-ms="103" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Window closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- windowclose -->
+        <test-method signature="switchtab()[pri:0, instance:Test.Loginvalidation@4b14c583]" started-at="2021-08-15T20:09:59 IST" name="switchtab" finished-at="2021-08-15T20:09:59 IST" depends-on-methods="Test.Loginvalidation.windowclose" duration-ms="111" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Window switched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- switchtab -->
+        <test-method signature="Signin()[pri:0, instance:Test.Loginvalidation@4b14c583]" started-at="2021-08-15T20:09:59 IST" name="Signin" finished-at="2021-08-15T20:10:06 IST" depends-on-methods="Test.Loginvalidation.switchtab" duration-ms="7151" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Sign in Functionality]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Signin -->
+        <test-method signature="loginvalidation1(java.lang.String)[pri:0, instance:Test.Loginvalidation@4b14c583]" started-at="2021-08-15T20:10:06 IST" name="loginvalidation1" finished-at="2021-08-15T20:10:11 IST" depends-on-methods="Test.Loginvalidation.Signin" duration-ms="5208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[86345822]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ Click on Sign on]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginvalidation1 -->
+        <test-method signature="loginvalidation2(java.lang.String)[pri:0, instance:Test.Loginvalidation@4b14c583]" started-at="2021-08-15T20:10:11 IST" name="loginvalidation2" finished-at="2021-08-15T20:10:14 IST" depends-on-methods="Test.Loginvalidation.Signin" duration-ms="2914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dan@gl.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ Click on Sign on]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginvalidation2 -->
+        <test-method signature="loginvalidation3(java.lang.String)[pri:0, instance:Test.Loginvalidation@4b14c583]" started-at="2021-08-15T20:10:14 IST" name="loginvalidation3" finished-at="2021-08-15T20:10:19 IST" depends-on-methods="Test.Loginvalidation.Signin" duration-ms="4657" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[65466788]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ Click on Sign on]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginvalidation3 -->
+        <test-method signature="windowclose1()[pri:0, instance:Test.Loginvalidation@4b14c583]" started-at="2021-08-15T20:10:19 IST" name="windowclose1" finished-at="2021-08-15T20:10:19 IST" depends-on-methods="Test.Loginvalidation.loginvalidation3" duration-ms="73" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Window closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- windowclose1 -->
+        <test-method signature="windowclose2()[pri:0, instance:Test.Loginvalidation@4b14c583]" started-at="2021-08-15T20:10:19 IST" name="windowclose2" finished-at="2021-08-15T20:10:19 IST" depends-on-methods="Test.Loginvalidation.loginvalidation3" duration-ms="143" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ Window closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- windowclose2 -->
+      </class> <!-- Test.Loginvalidation -->
+    </test> <!-- Chrome-Regression Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>

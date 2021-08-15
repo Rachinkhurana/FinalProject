@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite" >
+<parameter name ="browser" value="Chrome" ></parameter>
+<parameter name ="Number1" value="86345822" ></parameter>
+<parameter name ="Number2" value="dan@gl.com" ></parameter>
+<parameter name ="Number3" value="65466788" ></parameter>
+
+  <test thread-count="5" name="Chrome-Regression Test">
+    <packages>
+      <package name="Test"/>
+    </packages>
+  </test> <!-- Regression Test -->
+</suite> <!-- Regression Suite -->
