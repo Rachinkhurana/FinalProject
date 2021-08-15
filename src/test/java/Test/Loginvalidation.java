@@ -200,7 +200,7 @@ ArrayList<String> newwindowtotal = new ArrayList<String>(driver.getWindowHandles
 	
 	@Test(dependsOnMethods = { "loginvalidation3" })
 	public void windowclose2() throws InterruptedException {
-		Reporter.log(" Window closed");
+		Reporter.log(" Window closed2");
 ArrayList<String> newwindowtotal = new ArrayList<String>(driver.getWindowHandles()); 
 		
 		driver.switchTo().window(newwindowtotal.get(0));
